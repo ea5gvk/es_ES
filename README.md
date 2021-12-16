@@ -8,4 +8,10 @@ crear o añadir carpeta es_ES con el contenido de este github.<p>
 Tambien podemos situarnos en la dirección /usr/share/svxlink/sounds/ en terminal y teclear:<p>
 sudo git clone https://github.com/ea5gvk/es_ES <p>
 
+y cambiar en /usr/share/svxlink/events.tcl <p>
+
+sudo nano /usr/share/svxlink/events.tcl
+
+donde aparezca la linea de la configuracion del lenguajes configuraremos español quedando asi -- set lang "es_ES"<p>
+  
 con esto ya tendriamos nuestro svxlink con voces Españolas.
