@@ -12,6 +12,7 @@ y cambiar en /usr/share/svxlink/events.tcl <p>
 
 sudo nano /usr/share/svxlink/events.tcl
 
-donde aparezca la linea de la configuracion del lenguajes configuraremos español quedando asi -- set lang "es_ES"<p>
+donde aparezca la linea de la configuracion del lenguajes configuraremos español quedando asi<p>
+  set lang "es_ES"<p>
   
 con esto ya tendriamos nuestro svxlink con voces Españolas.
