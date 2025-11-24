@@ -22,3 +22,13 @@ con esto ya tendriamos nuestro svxlink con voces Españolas y para que surtan ef
 sudo service restart svxlink.service <p>
 
 Listo nuestro Svxlink en Español.
+
+# Actualización 24-11-2025, script que automatiza la instalacion del idioma Español en tu Svxlink, gracias a la colaboracion de Fran EA7KLE
+
+# Install
+
+ apt-get update
+
+ apt-get install curl sudo -y
+
+ bash -c "$(curl -fsSL https://github.com/ea5gvk/es_ES/raw/main/audio_es.sh)"
